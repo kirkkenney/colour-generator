@@ -28,6 +28,7 @@ h3 {
 	1px -1px black,
 	-1px 1px black,
 	1px 1px black;
+	text-transform: uppercase;
 }
 .inputs {
 	margin: 5% 25%;
@@ -38,16 +39,7 @@ h3 {
 	margin-right: 20px;
 }
 
-.random {
-	color: white;
-	background-color: black;
-	border: solid white 1px;
-	font-size: 30px;
-	padding: 15px;
-	cursor: pointer;
-	margin: 0 20px;
-}
-.radial {
+.random, .radial, .linear {
 	color: white;
 	background-color: black;
 	border: solid white 1px;
