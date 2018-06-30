@@ -17,26 +17,30 @@ var bottomleft = document.querySelector(".bottomleft");
 function setGradient() {
 	body.style.background = "linear-gradient(to right, "
 	+ color1.value + ", " + color2.value + ")";
-	css.textContent = "Colour 1 = " + color1.value + " : " + "Colour 2 = " + color2.value;
+	css.textContent = "linear-gradient(to right, "
+	+ color1.value + ", " + color2.value + ")";
 	document.getElementById("direction").style.display = "inline-block";
 	document.getElementById("radialDirection").style.display = "none";
 }
 function setGradientLeft() {
 	body.style.background = "linear-gradient(to left, "
 	+ color1.value + ", " + color2.value + ")";
-	css.textContent = "Colour 1 = " + color1.value + " : " + "Colour 2 = " + color2.value;
+	css.textContent = "linear-gradient(to left, "
+	+ color1.value + ", " + color2.value + ")";
 	document.getElementById("direction").style.display = "inline-block";
 }
 function setGradientTop() {
 	body.style.background = "linear-gradient(to top, "
 	+ color1.value + ", " + color2.value + ")";
-	css.textContent = "Colour 1 = " + color1.value + " : " + "Colour 2 = " + color2.value;
+	css.textContent = "linear-gradient(to top, "
+	+ color1.value + ", " + color2.value + ")";
 	document.getElementById("direction").style.display = "inline-block";
 }
 function setGradientBottom() {
 	body.style.background = "linear-gradient(to bottom, "
 	+ color1.value + ", " + color2.value + ")";
-	css.textContent = "Colour 1 = " + color1.value + " : " + "Colour 2 = " + color2.value;
+	css.textContent = "linear-gradient(to bottom, "
+	+ color1.value + ", " + color2.value + ")";
 	document.getElementById("direction").style.display = "inline-block";
 }
 function randomColours() {
@@ -46,28 +50,28 @@ function randomColours() {
 }
 function radialGradient() {
 	body.style.background = "radial-gradient(" + color1.value + ", " + color2.value + ")";
-	css.textContent = "Colour 1 = " + color1.value+ " : " + "Colour 2 = " + color2.value;
+	css.textContent = "radial-gradient(" + color1.value + ", " + color2.value + ")";
 	document.getElementById("direction").style.display = "none";
 	document.getElementById("radialDirection").style.display = "inline-block";
 }
 function radialTopLeft() {
 	body.style.background = "radial-gradient(at top left," + color1.value + ", " + color2.value + ")";
-	css.textContent = "Colour 1 = " + color1.value+ " : " + "Colour 2 = " + color2.value;
+	css.textContent = "radial-gradient(at top left," + color1.value + ", " + color2.value + ")";
 	document.getElementById("direction").style.display = "none";
 }
 function radialTopRight() {
 	body.style.background = "radial-gradient(at top right," + color1.value + ", " + color2.value + ")";
-	css.textContent = "Colour 1 = " + color1.value+ " : " + "Colour 2 = " + color2.value;
+	css.textContent = "radial-gradient(at top right," + color1.value + ", " + color2.value + ")";
 	document.getElementById("direction").style.display = "none";
 }
 function radialBottomRight() {
 	body.style.background = "radial-gradient(at bottom right," + color1.value + ", " + color2.value + ")";
-	css.textContent = "Colour 1 = " + color1.value+ " : " + "Colour 2 = " + color2.value;
+	css.textContent = "radial-gradient(at bottom right," + color1.value + ", " + color2.value + ")";
 	document.getElementById("direction").style.display = "none";
 }
 function radialBottomLeft() {
 	body.style.background = "radial-gradient(at bottom left," + color1.value + ", " + color2.value + ")";
-	css.textContent = "Colour 1 = " + color1.value+ " : " + "Colour 2 = " + color2.value;
+	css.textContent = "radial-gradient(at bottom left," + color1.value + ", " + color2.value + ")";
 	document.getElementById("direction").style.display = "none";
 }
 color1.addEventListener("input", setGradient);
