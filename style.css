@@ -29,7 +29,7 @@ h3 {
 	1px -1px black,
 	-1px 1px black,
 	1px 1px black;
-	text-transform: uppercase;
+	text-transform: lowercase;
 }
 .inputs {
 	margin: 2% 25%;
