@@ -1,3 +1,101 @@
+@media screen and (max-width: 600px) {
+	body {
+	max-height: 100%;
+	overflow: hidden;
+}
+h1 {
+	text-align: center;
+	font-size: 35px;
+	color: rgb(230,230,230);
+	text-shadow: -1px -1px black,
+	1px -1px black,
+	-1px 1px black,
+	1px 1px black;
+	margin-top: 20px;
+}
+h2 {
+	text-align: center;
+	font-size: 25px;
+	color: rgb(230,230,230);
+	text-shadow: -1px -1px black,
+	1px -1px black,
+	-1px 1px black,
+	1px 1px black;
+	margin-top: 10px;
+}
+h3 {
+	text-align: center;
+	font-size: 20px;
+	color: rgb(230,230,230);
+	text-shadow: -1px -1px black,
+	1px -1px black,
+	-1px 1px black,
+	1px 1px black;
+	text-transform: uppercase;
+	margin-top: 10px;
+}
+.inputs {
+	margin: 25px 2%;
+	width: 98%;
+}
+.color1, .color2 {
+	width: 45%;
+	height: 25px;
+	margin-right: 10px;
+}
+.random, .radial, .linear {
+	color: white;
+	background-color: black;
+	border: solid white 1px;
+	font-size: 15px;
+	padding: 5px;
+	cursor: pointer;
+	margin: 0 5px;
+	width: 90%;
+}
+.buttons {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	margin: 20px 0;
+}
+#direction {
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	display: inline-block;
+	margin: 0 auto;
+	width: 100%;
+	cursor: pointer;
+}
+#radialDirection {
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	display: none;
+	margin: 0 auto;
+	width: 100%;
+	cursor: pointer;
+}
+.left, .up, .right, .down {
+	display: inline-block;
+	background-color: black;
+	width: 40px;
+	height: 40px;
+	margin: 0 10px;
+	border: solid white 1px;
+}
+.topleft, .topright, .bottomright, .bottomleft {
+	display: inline-block;
+	background-color: black;
+	width: 40px;
+	height: 40px;
+	margin: 0 10px;
+	border: solid white 1px;	
+}
+}
+
+@media screen and (min-width: 600px) {
 body {
 	max-height: 100%;
 	overflow: hidden;
@@ -29,7 +127,7 @@ h3 {
 	1px -1px black,
 	-1px 1px black,
 	1px 1px black;
-	text-transform: lowercase;
+	text-transform: uppercase;
 }
 .inputs {
 	margin: 2% 25%;
@@ -87,4 +185,5 @@ h3 {
 	height: 50px;
 	margin: 0 20px;
 	border: solid white 1px;	
+}
 }
