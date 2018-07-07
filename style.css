@@ -40,9 +40,9 @@ h3 {
 	text-align:center;
 }
 .color1, .color2 {
-	width: 45%;
-	height: 25px;
-	margin-right: 10px;
+	width: 70%;
+	height: 35px;
+	margin: 10px 0;
 }
 .random, .radial, .linear {
 	color: white;
